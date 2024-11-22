@@ -18,14 +18,15 @@ const overlay = document.querySelector(".overlay");
 // });
 // document.querySelector(".text").textContent = typed;
 hidden[0].style.backgroundColor = "rgba(50,60,90,0.6)";
-// hidden[0].style.left ='200 px';
+hidden[1].style.height = "80%";
+hidden[2].style.height = "80%";
+hidden[3].style.height = "80%";
 for (let i = 0; i < hidden.length; i++) {
   li[i].addEventListener("click", function () {
     // console.log("hi");
     hidden[i].classList.remove("hidden");
     console.log("hi");
     overlay.classList.remove("hidden");
-    hidden[0].style.width = "100%";
     // hidden[1].style.transiton ='2s';
   });
 }

@@ -45,14 +45,15 @@ ul li {
 .modal {
  
   /* flex-wrap:wrap-reverse; */
-  width:100%;
-  height:auto;
+  max-width: 80%;
+  height:200 px;
   color: #1c1b1b;
   background-color:rgb(255, 253, 253);
   /* margin-left: 65%; */
   position: absolute;
   top:10%;
-  /* left: 55%; */
+  left: 15%;
+  right:15%;
   border-radius: 5px;
   padding: 40px;
   z-index: 10;
