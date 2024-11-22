@@ -17,7 +17,9 @@ const overlay = document.querySelector(".overlay");
 //   loop: true,
 // });
 // document.querySelector(".text").textContent = typed;
+document.querySelector('.modal-home').style.flexDirection = 'column';
 hidden[0].style.backgroundColor = "rgba(50,60,90,0.6)";
+hidden[0].style.width = '200px';
 hidden[1].style.height = "80%";
 hidden[2].style.height = "80%";
 hidden[3].style.height = "80%";
