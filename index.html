@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <section class="header">
@@ -13,35 +14,61 @@
           <nav>
             <h1><span>T</span>anmoy.</h1>
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Contact Us</li>
+              <li class="li">home</li>
+              <li class="li">about</li>
+              <li class="li">skills</li>
+              <li class="li">contact</li>
+
             </ul>
           </nav>
-          <div class="modal hidden">
+          <div class="modal hidden modal-home">
             <button class="close">&times;</button>
-            <p>
-              Hi, I am Tanmoy Das. I am from Kharagpur, Paschim Medinipur.
-              Recenlty, I completed my Bachelor of Technology in Electrical
-              Engineering from College of Engineering and Management, Kolaghat.
-            </p>
+            <button class="btn-home portfolio">Portfolio</button>
+            <hr />
+            <button class="btn-home contact">My Project</button>
+            <hr />
+            <button class="btn-home resume">Resume</button>
           </div>
 
           <div class="modal hidden">
             <button class="close">&times;</button>
+            <h4>about.</h4>
+            <p style="color: rgb(71, 67, 67); font-size: 1.2rem">
+              Hi, I am Tanmoy Das. I live in Kharagpur, Paschim Medinipur.
+            </p>
             <p>
-              Hi, I am Tanmoy Das. I am from Kharagpur, Paschim Medinipur.
               Recenlty, I completed my Bachelor of Technology in Electrical
               Engineering from College of Engineering and Management, Kolaghat.
+              After my graduation I feel that I should do What I love to do. So
+              I switched my field to be a future Web Developer.
             </p>
+            <img
+              style="height: 300px; width: 400px; margin-left: 40%"
+              src="./photo/about.png"
+            />
+            <hr />
+            <div class="img">
+              <img src="./photo/20230820_103155.jpg" />
+              <img src="./photo/20240214_144733gimp.png" />
+              <img src="./photo/IMG_20241016_201944_057.png" />
+              <img src="./photo/20230820_103155.jpg" />
+              <img src="./photo/20240214_144733gimp.png" />
+              <img src="./photo/IMG_20241016_201944_057.png" />
+              <img src="./photo/20230820_103155.jpg" />
+            </div>
+          </div>
+          <div class="modal hidden">
+            <button class="close">&times;</button>
+           
           </div>
           <div class="modal hidden">
             <button class="close">&times;</button>
             <p>
-              mobile- 9635170557 <br />
+              Get in touch with me via social media or send me an email. Mobile-
+              9064335476 <br />
               <a
                 href="https://www.google.com/maps/place/22%C2%B023'11.8%22N+87%C2%B033'27.1%22E/@22.386607,87.5443275,4905m/data=!3m1!1e3!4m4!3m3!8m2!3d22.386605!4d87.557515?authuser=0&entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
-                >address</a
+                >My Address</a
               >
             </p>
           </div>
@@ -49,11 +76,12 @@
         <h2 style="margin-top: 200px; margin-left: 60px">
           Hi<br />I'm Tanmoy.
         </h2>
-        <h3 style="margin-top: 25px; margin-left: 60px">A Web Developer.</h3>
+        <h3 style="margin-top: 25px; margin-left: 60px"><span class="text"> a  Web Developer.</span></h3>
         <audio></audio>
         <div class="overlay hidden"></div>
       </div>
     </section>
+
     <script src="app.js"></script>
   </body>
 </html>
